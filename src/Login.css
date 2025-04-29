@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* General page styling */
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: #1C1C1C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('/home/pavi/tower-dump-analysis/frontend/src/image4.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* Form container styling */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px 60px 60px 60px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 500px;
+  box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.7);
+  animation: fadeIn 1s ease-out;
+  text-align: center;
+}
+
+/* SecureTrack Title */
+.login-title {
+  font-size: 80px;
+  background: linear-gradient(to right, #E50914, #be040e);
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-bottom: 0;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Login text styling */
+.login {
+  font-size: 40px;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+}
+
+/* Form input styling */
+.login-input {
+  padding: 15px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+  font-size: 18px;
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  transition: 0.3s ease;
+  box-sizing: border-box;
+}
+
+/* Login button styling */
+.login-button {
+  padding: 25px;
+  background-color: #E50914;
+  border: none;
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  border-radius: 8px;
+  width: 90%;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+/* Button hover effect */
+.login-button:hover {
+  background-color: #b4060f;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.6);
+  transform: translateY(-2px);
+}
+
+/* Fade-in animation for the login form */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

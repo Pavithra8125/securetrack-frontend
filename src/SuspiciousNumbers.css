@@ -1,0 +1,227 @@
+/* Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+  background-color: #1C1C1C;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+/* Main container */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px 20px 20px 20px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 1200px;
+  box-shadow: 10px 20px 40px rgba(0, 0, 0, 0.7);
+  animation: fadeIn 1s ease-out;
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Title Styling */
+.title {
+  font-size: 4rem;
+  background: linear-gradient(to right, #E50914, #be040e);
+  -webkit-background-clip: text;
+  color: transparent;
+  margin-bottom: 0;
+  font-family: 'Bebas Neue', sans-serif;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Subtitle Styling */
+.subtitle {
+  font-size: 1rem;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 10px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.6);
+}
+
+/* File Upload Section */
+.upload-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+  gap: 15px;
+  margin-bottom: 40px;
+}
+
+/* File Input */
+.file-input {
+  padding: 15px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+  border: 2px solid #ccc;
+  font-size: 18px;
+  width: 100%;
+  background-color: transparent;
+  color: white;
+  transition: 0.3s ease;
+  box-sizing: border-box;
+}
+
+.file-input:hover {
+  border-color: white;
+}
+
+/* Upload Button */
+.upload-button {
+  padding: 15px;
+  background-color: #cf131d;
+  border: none;
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  border-radius: 8px;
+  width: 90%;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.upload-button:hover {
+  background-color: #E50914;
+}
+
+/* Loading and Error Messages */
+.loading, .error {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+/* Numbers Table */
+.numbers-table {
+  width: 100%;
+  margin-top: 30px;
+  border-collapse: collapse;
+  animation: fadeIn 1s ease-in;
+  margin-bottom: 40px;
+}
+
+.numbers-table th, .numbers-table td {
+  padding: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
+}
+
+.numbers-table th {
+  background: rgba(255, 255, 255, 0.1);
+  color: #E50914;
+  font-weight: bold;
+}
+
+.numbers-table tr:nth-child(even) {
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.numbers-table tr:hover {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.download-buttons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.csv-button, .pdf-button {
+  background-color: #E50914;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.csv-button:hover, .pdf-button:hover {
+  background-color: #9b1623;
+}
+
+
+/* Button Group for CSV/PDF Downloads */
+.download-buttons {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* CSV Download Button */
+.csv-button {
+  padding: 12px 20px;
+  background-color: #cf131d;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  text-transform: uppercase;
+}
+
+.csv-button:hover {
+  background-color: #E50914;
+}
+
+/* PDF Download Button */
+.pdf-button {
+  padding: 12px 20px;
+  background-color: #cf131d;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  text-transform: uppercase;
+}
+
+.pdf-button:hover {
+  background-color: #E50914;
+}
+/* Map Styling */
+.map-container {
+  margin-top: 20px;
+  width: 100%;
+  height: 300px; /* You can adjust the height as needed */
+  padding: 15px;
+  border-radius: 12px;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leaflet-container {
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+}
+
+.map-container .leaflet-map {
+  width: 100%;
+  height: 100%;
+}
