@@ -38,7 +38,12 @@ Make sure the backend server is running for full functionality.
 
 ➡️ [Live Demo](https://securetrack-backend.onrender.com)
 
-📝 Sample CSV for Testing: Check it (File Name:Sample file.csv)
+---
+
+## ✨ Sample CSV for Testing
+
+📝 **Sample CSV for Testing:** Check it (File Name: **Sample file.csv**) in the repository.
+
 ---
 
 ## 🚀 Contributing
