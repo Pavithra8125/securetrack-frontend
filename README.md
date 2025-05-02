@@ -38,7 +38,7 @@ Make sure the backend server is running for full functionality.
 
 ➡️ [Live Demo](https://securetrack-backend.onrender.com)
 
-📝 [Sample CSV for Testing](https://github.com/Pavithra8125/securetrack-frontend/Sample File.csv)
+📝 [Sample CSV for Testing]([https://github.com/Pavithra8125/securetrack-frontend/Sample File.csv](https://github.com/Pavithra8125/securetrack-frontend/blob/master/Sample%20file.csv)
 ---
 
 ## 🚀 Contributing
