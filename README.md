@@ -19,7 +19,7 @@ Welcome to the frontend of **SecureTrack**, a web-based Tower Dump Analysis Tool
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/yourusername/securetrack-frontend.git
+   git clone https://github.com/Pavithra8125/securetrack-frontend.git
    cd securetrack-frontend
 2. **Install dependencies:**
 
@@ -34,12 +34,11 @@ The app will run on [http://localhost:3000](http://localhost:3000).
 
 Make sure the backend server is running for full functionality.
 
-📝 [Backend Repository]()
+📝 [Backend Repository](https://github.com/Pavithra8125/securetrack-backend)
 
 ➡️ [Live Demo](https://securetrack-backend.onrender.com)
 
-📝 [Sample CSV for Testing](https://github.com/yourusername/securetrack-frontend)
-
+📝 [Sample CSV for Testing](https://github.com/Pavithra8125/securetrack-frontend/Sample File.csv)
 ---
 
 ## 🚀 Contributing
