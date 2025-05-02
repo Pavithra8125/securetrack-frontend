@@ -38,9 +38,9 @@ Make sure the backend server is running for full functionality.
 ## 🔑 Login Credentials
 To explore the SecureTrack application, you can use the following default admin credentials:
 
-Username: admin
+### Username: admin
 
-Password: password
+### Password: password
 
 These credentials will grant you access to all features of the app, including uploading CSV files, analyzing suspicious numbers, and generating reports.
 
