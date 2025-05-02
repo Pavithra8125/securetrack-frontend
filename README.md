@@ -34,6 +34,18 @@ The app will run on [http://localhost:3000](http://localhost:3000).
 
 Make sure the backend server is running for full functionality.
 
+---
+## 🔑 Login Credentials
+To explore the SecureTrack application, you can use the following default admin credentials:
+
+Username: admin
+
+Password: password
+
+These credentials will grant you access to all features of the app, including uploading CSV files, analyzing suspicious numbers, and generating reports.
+
+---
+
 📝 [Backend Repository](https://github.com/Pavithra8125/securetrack-backend)
 
 ➡️ [Live Demo](https://securetrack-backend.onrender.com)
